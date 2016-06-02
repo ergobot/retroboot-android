@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 resultText.setText("");
                 Snackbar.make(view, "Making the call", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-
+                getEcho();
             }
         });
 

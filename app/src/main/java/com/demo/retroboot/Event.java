@@ -5,6 +5,9 @@ package com.demo.retroboot;
  */
 public class Event {
 
+    // big dummy
+    public Event(){}
+
     public Event(String title){
         this.setTitle(title);
     }
